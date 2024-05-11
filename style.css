@@ -1,0 +1,12 @@
+.navbar{
+    opacity:0;
+}
+
+.navbar:hover{
+    opacity:1 ;
+}
+.navbar-color{
+    color:rgb(15, 71, 23);
+
+}
+
