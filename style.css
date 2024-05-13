@@ -9,3 +9,12 @@
     color:rgb(15, 71, 23);
 
 }
+
+.ornek{
+    width: 900px;
+    margin:auto;
+    }
+    .sola-kaydir{
+    float:left;
+    padding:0 10px 10px 0;
+    }
