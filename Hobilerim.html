@@ -69,32 +69,67 @@
         </div>
       </nav>
 
-      <style>
+     <!--<style>
         .card {
           width: 12rem;
         }
+      </style>-->
+
+      <style>
+        .card {
+          max-width: 15rem; /* Kartın maksimum genişliği */
+        }
+      
+        .card-body {
+          font-size: 0.8rem; /* Kart içeriğinin metin boyutu */
+        }
+      
+        .card-title {
+          font-size: 1rem; /* Kart başlığının metin boyutu */
+        }
+      
+        .card-text {
+          font-size: 0.7rem; /* Kart metninin boyutu */
+        }
+      
+        .card-img-top {
+          max-width: 100%; /* Kart üstündeki görüntünün maksimum genişliği */
+          height: auto; /* Görüntünün orijinal oranlarını korumak için */
+        }
       </style>
+      
 
       <div class="card-deck">
-      <div class="card" >
-        <img src="kitap.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Kitap Okumak</p>
+        <div class="card" style="width: 10rem;">
+          <img src="kitap.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 5rem;">
+          <img src="sinema.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 10rem;">
+          <img src="badminton.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
         </div>
       </div>
-      <div class="card" >
-        <img src="muzik.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Müzik Dinlemek</p>
-        </div>
-      </div>
-      <div class="card" >
-        <img src="sinema.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Sinemaya Gitmek</p>
-        </div>
-      </div>
-      </div>
+      
+
+
         
        
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
