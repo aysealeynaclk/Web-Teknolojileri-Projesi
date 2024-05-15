@@ -18,3 +18,15 @@
     float:left;
     padding:0 10px 10px 0;
     }
+
+    .card-img-top {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .card-img-top {
+        height: 200px; /* İstediğiniz yükseklik */
+        object-fit: cover; /* Resmi kart içine sığacak şekilde keser */
+    }
+    
