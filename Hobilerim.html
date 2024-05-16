@@ -8,11 +8,11 @@
     <style>
         .card-img-top {
             width: 100%;
-            height: 200px; /* İstediğiniz yüksekliği ayarlayın */
+            height: 300px; /* İstediğiniz yüksekliği ayarlayın */
             object-fit: cover; /* Görüntüyü kart içine sığacak şekilde keser */
         }
         .card {
-            width: 18rem; /* Tüm kartlar için sabit genişlik */
+            margin-bottom: 20px; /* Kartlar arasında boşluk bırakır */
         }
     </style>
 </head>
@@ -68,29 +68,65 @@
     </nav>
 
     <div class="container mt-4">
-        <div class="card-deck">
-            <div class="card">
-                <img src="img/kitap.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Kitap Okumak</h5>
-                    <p class="card-text">Önerdiğim kitapları görmek için aşağıdaki butona tıklayınız.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/kitap.jpg" class="card-img-top" alt="Kitap Okumak">
+                    <div class="card-body">
+                        <h5 class="card-title">Kitap Okumak</h5>
+                        <p class="card-text">Önerdiğim kitapları görmek için aşağıdaki butona tıklayınız.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="img/sinema.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Sinemaya Gitmek</h5>
-                    <p class="card-text">Önerdiğim filmleri görmek için aşağıdaki butonu tıklayınız.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/sinema.jpg" class="card-img-top" alt="Sinemaya Gitmek">
+                    <div class="card-body">
+                        <h5 class="card-title">Sinemaya Gitmek</h5>
+                        <p class="card-text">Önerdiğim filmleri görmek için aşağıdaki butonu tıklayınız.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="img/badminton.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Badminton Oynamak</h5>
-                    <p class="card-text">.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/seyahat.jpg" class="card-img-top" alt="Seyahat Etmek">
+                    <div class="card-body">
+                        <h5 class="card-title">Seyahat Etmek</h5>
+                        <p class="card-text">Gittiğim ve beğendiğim yerleri görmek için aşağıdaki butona tıklayınız.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/futbol.jpg" class="card-img-top" alt="Maç İzlemek">
+                    <div class="card-body">
+                        <h5 class="card-title">Maç İzlemek</h5>
+                        <p class="card-text">Geçmişte izlemek isteğiniz maçları aşağıdaki butona tıklayarak izleyebilirsiniz.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/oyun.jpg" class="card-img-top" alt="Oyun Oynamak">
+                    <div class="card-body">
+                        <h5 class="card-title">Oyun Oynamak</h5>
+                        <p class="card-text">Önerdiğim oyunları görmek için aşağıdaki butona tıklayınız.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/badminton2.jpg" class="card-img-top" alt="Badminton Oynamak">
+                    <div class="card-body">
+                        <h5 class="card-title">Badminton Oynamak</h5>
+                        <p class="card-text">Badminton ile ilgili bilgi almak için aşağıdaki butona tıklayınız.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
         </div>
