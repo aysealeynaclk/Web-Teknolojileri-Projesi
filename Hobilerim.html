@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <style>
         .card-img-top {
@@ -17,45 +18,50 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">AA</a>
+    <nav class="navbar navbar-expand-lg navbar-light custom-bg" style="background-color: #00691e !important;">
+        <a class="navbar-brand" href="Anasayfa.html">AA</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          
+          <span class="navbar-toggler-icon"></span>
         </button>
+      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="home.html">Anasayfa <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Hakkımda</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="EgitimHayatim.html">Eğitim Hayatım</a>
-                        <a class="dropdown-item" href="Hobilerim.html">Hobilerim</a>
-                    </div>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Şehrim</a>
-                    <div class="dropdown-menu">
-                       
-                        <a class="dropdown-item" href="Tarihi.html">Tarihi</a>
-                       <a class="dropdown-item" href="GezilecekYerler.html">Gezilecek Yerler</a>
-                       <a class="dropdown-item" href="YenilecekYemekler.html">Yenilecek Yemekler </a>
-                       <a class="dropdown-item" href="Mirasimiz.html">Mirasımız </a>
-                       <a class="dropdown-item" href="#">Futbol </a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Anasayfa <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Hakkımda
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Ozgecmisim.html">Özgeçmişim</a>
+                <a class="dropdown-item" href="Hobilerim.html">Hobilerim</a>
+                
+              </div>
+            </li>
+            <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Şehrim
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="Tarihi.html">Tarihi</a>
+                  <a class="dropdown-item" href="GezilecekYerler.html">Gezilecek Yerler</a>
+                  <a class="dropdown-item" href="YenilecekYemekler.html">Yenilecek Yemekler </a>
+                  <a class="dropdown-item" href="Mirasimiz.html">Mirasımız </a>
+                  <a class="dropdown-item" href="Futbol.html">Futbol </a>
                   
-                    </div>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="Ozgecmisim.html">Özgeçmişim <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="İletisim.html">İletişim <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-            <a href="login.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Giriş</a>
+                  
+                </div>
+              </li>
+           
+            <li class="nav-item active">
+              <a class="nav-link" href="İletisim.html">İletişim <span class="sr-only">(current)</span></a>
+            </li>
+           </ul>
+          <a href="login.html" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Giriş</a>
         </div>
-    </nav>
+      </nav>
 
     <div class="container mt-4">
         <div class="row">
@@ -65,7 +71,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Kitap Okumak</h5>
                         <p class="card-text">Önerdiğim kitapları görmek için aşağıdaki butona tıklayınız.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="Kitap.html" class="btn btn-dark">...</a>
                     </div>
                 </div>
             </div>
@@ -75,17 +81,17 @@
                     <div class="card-body">
                         <h5 class="card-title">Sinemaya Gitmek</h5>
                         <p class="card-text">Önerdiğim filmleri görmek için aşağıdaki butonu tıklayınız.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="Film.html" class="btn btn-dark">...</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/seyahat.jpg" class="card-img-top" alt="Seyahat Etmek">
+                    <img src="img/seyahat.webp" class="card-img-top" alt="Seyahat Etmek">
                     <div class="card-body">
                         <h5 class="card-title">Seyahat Etmek</h5>
                         <p class="card-text">Gittiğim ve beğendiğim yerleri görmek için aşağıdaki butona tıklayınız.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-dark">...</a>
                     </div>
                 </div>
             </div>
@@ -95,7 +101,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Maç İzlemek</h5>
                         <p class="card-text">Geçmişte izlemek isteğiniz maçları aşağıdaki butona tıklayarak izleyebilirsiniz.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="https://footballia.net/" class="btn btn-dark">...</a>
                     </div>
                 </div>
             </div>
@@ -105,7 +111,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Oyun Oynamak</h5>
                         <p class="card-text">Önerdiğim oyunları görmek için aşağıdaki butona tıklayınız.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">...</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +121,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Badminton Oynamak</h5>
                         <p class="card-text">Badminton ile ilgili bilgi almak için aşağıdaki butona tıklayınız.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="https://www.badminton.org.tr/federasyon/genel-bilgiler-ve-tarihce/#:~:text=T%C3%BCytop%20ya%20da%20badminton%2C%20raket,amac%C4%B1na%20dayanan%20bir%20spor%20dal%C4%B1d%C4%B1r." class="btn btn-dark">...</a>
                     </div>
                 </div>
             </div>

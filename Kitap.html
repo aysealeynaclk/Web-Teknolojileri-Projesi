@@ -4,89 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitap Önerileri</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #e6f7e6;
-            color: #2c3e50;
-            margin: 0;
-            padding: 0;
-        }
-        .logo {
-            font-size: 2em;
-            font-weight: bold;
-        }
-        .book-item {
-            background-color: #d4efdf;
-            border: 1px solid #27ae60;
-            border-radius: 5px;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-        .book-item img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
         .book-item p {
-            text-align: center;
-            margin-top: 10px;
-        }
-    </style>
+        color: rgb(255, 255, 255); /* İstediğiniz rengi buraya yazın */
+    }
+      </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand logo" href="#">AA</a>
+    <nav class="navbar navbar-expand-lg navbar-light custom-bg" style="background-color: #00691e !important;">
+        <a class="navbar-brand" href="Anasayfa.html">AA</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          
+          <span class="navbar-toggler-icon"></span>
         </button>
-
+      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="home.html">Anasayfa <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Hakkımda
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="EgitimHayatim.html">Eğitim Hayatım</a>
-                        <a class="dropdown-item" href="Hobilerim.html">Hobilerim</a>
-                    </div>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Şehrim
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="Tarihi.html">Tarihi</a>
-                        <a class="dropdown-item" href="GezilecekYerler.html">Gezilecek Yerler</a>
-                        <a class="dropdown-item" href="YenilecekYemekler.html">Yenilecek Yemekler</a>
-                        <a class="dropdown-item" href="Mirasimiz.html">Mirasımız</a>
-                        <a class="dropdown-item" href="#">Futbol</a>
-                    </div>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="Ozgecmisim.html">Özgeçmişim <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="İletisim.html">İletişim <span class="sr-only">(current)</span></a>
-                </li>
-            </ul>
-            <a href="login.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Giriş</a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Anasayfa <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Hakkımda
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Ozgecmisim.html">Özgeçmişim</a>
+                <a class="dropdown-item" href="Hobilerim.html">Hobilerim</a>
+                
+              </div>
+            </li>
+            <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Şehrim
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="Tarihi.html">Tarihi</a>
+                  <a class="dropdown-item" href="GezilecekYerler.html">Gezilecek Yerler</a>
+                  <a class="dropdown-item" href="YenilecekYemekler.html">Yenilecek Yemekler </a>
+                  <a class="dropdown-item" href="Mirasimiz.html">Mirasımız </a>
+                  <a class="dropdown-item" href="Futbol.html">Futbol </a>
+                  
+                  
+                </div>
+              </li>
+           
+            <li class="nav-item active">
+              <a class="nav-link" href="İletisim.html">İletişim <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <a href="login.html" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Giriş</a>
         </div>
-    </nav>
+      </nav>
 
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-3 book-item">
-                <img src="kitap1.jpg" alt="Kitap Adı 1">
+                <img src="img/agathac.jpeg" alt="Kitap Adı 1">
                 <p>Agatha Christie Roger Ackroyd Cinayeti</p>
             </div>
             <div class="col-md-3 book-item">
-                <img src="kitap2.jpg" alt="Kitap Adı 2">
+                <img src="img/livaneli.jpeg" alt="Kitap Adı 2">
                 <p>Livaneli Kardeşimin Hikayesi</p>
             </div>
             <div class="col-md-3 book-item">
@@ -94,12 +74,12 @@
                 <p>Khaled Hosseini Uçurtma Avcısı</p>
             </div>
             <div class="col-md-3 book-item">
-                <img src="kitap4.jpg" alt="Kitap Adı 4">
-                <p>Kitap Adı 4</p>
+                <img src="img/satranç.jpeg" alt="Kitap Adı 4">
+                <p>Stefan Zweig Satranç</p>
             </div>
             <div class="col-md-3 book-item">
-                <img src="kitap5.jpg" alt="Kitap Adı 5">
-                <p>Kitap Adı 5</p>
+                <img src="img/başlangıç.jpeg" alt="Kitap Adı 5">
+                <p>Dan Brown Başlangıç</p>
             </div>
             
         </div>
